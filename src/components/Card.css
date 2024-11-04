@@ -1,0 +1,53 @@
+.card {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardi {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    gap: 15px;
+}
+
+.logocontainer {
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.cardii {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.leftrightbtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: rgb(47, 0, 215);
+    border: 2px solid rgb(229, 4, 249);
+}
+
+button:hover {
+    background-color: rgb(1, 47, 134);
+    color: rgb(229, 4, 249);
+    border: 2px solid cyan;
+}
